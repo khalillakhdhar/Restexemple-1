@@ -9,7 +9,7 @@ public class MyController {
 @GetMapping("/home")
 public String hello()
 {
-return "hello spring";	
+return "hello spring <br> <a href='/'>retour</a>";	
 }
 @GetMapping("")
 public ModelAndView homepage()
